@@ -1,0 +1,15 @@
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/bin/Debug/net5.0/Exercices.deps.json
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/bin/Debug/net5.0/Exercices.runtimeconfig.json
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/bin/Debug/net5.0/Exercices.runtimeconfig.dev.json
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/bin/Debug/net5.0/Exercices.dll
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/bin/Debug/net5.0/ref/Exercices.dll
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/bin/Debug/net5.0/Exercices.pdb
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/obj/Debug/net5.0/Exercices.csproj.AssemblyReference.cache
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/obj/Debug/net5.0/Exercices.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/obj/Debug/net5.0/Exercices.AssemblyInfoInputs.cache
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/obj/Debug/net5.0/Exercices.AssemblyInfo.cs
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/obj/Debug/net5.0/Exercices.csproj.CoreCompileInputs.cache
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/obj/Debug/net5.0/Exercices.dll
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/obj/Debug/net5.0/ref/Exercices.dll
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/obj/Debug/net5.0/Exercices.pdb
+/Users/jordan.carrot/Documents/Cours CFAI/Algo/Exercices/obj/Debug/net5.0/Exercices.genruntimeconfig.cache

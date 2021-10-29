@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/jordan.carrot/.dotnet/store/|arch|/|tfm|",
+      "/Users/jordan.carrot/.nuget/packages"
+    ]
+  }
+}
