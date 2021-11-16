@@ -7,7 +7,8 @@ namespace Exercices
         static void Main(string[] args)
         {
             //AlgoExemple();
-            Moyenne();
+            //Moyenne();
+            Moyenne2();
             Console.ReadKey(true);
         }
 
@@ -28,12 +29,27 @@ namespace Exercices
         {
             double A = 0, B = 0, Result = 0;
             Console.WriteLine("Valeur de A?");
+            A = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("\nValeur de B?");
+            B = Convert.ToDouble(Console.ReadLine());
+
+            Result = (A + B)/2;
+            Console.WriteLine("\nLa moyenne est égale à "+Result);
+        }
+
+        static void Moyenne2()
+        {
+            int A = 0, B = 0;
+            double Result = 0;
+            Console.WriteLine("Valeur de A?");
             A = Int32.Parse(Console.ReadLine());
 
             Console.WriteLine("\nValeur de B?");
             B = Int32.Parse(Console.ReadLine());
 
-            Result = (A + B)/2;
+            Result = (double)(A + B)/2;
+            //(double) préciser que le calcul est en double
             Console.WriteLine("\nLa moyenne est égale à "+Result);
         }
     }
