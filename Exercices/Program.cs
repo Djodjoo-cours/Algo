@@ -8,7 +8,8 @@ namespace Exercices
         {
             //AlgoExemple();
             //Moyenne();
-            Moyenne2();
+            //Moyenne2();
+            MoyenneTab();
             Console.ReadKey(true);
         }
 
@@ -51,6 +52,27 @@ namespace Exercices
             Result = (double)(A + B)/2;
             //(double) préciser que le calcul est en double
             Console.WriteLine("\nLa moyenne est égale à "+Result);
+        }
+
+        static void MoyenneTab()
+        {
+            int nb_notes = 0;
+            double note = 0, moyenne = 0;
+
+            Console.WriteLine("Combien de notes voulez-vous rentrer?");
+            nb_notes = Int32.Parse(Console.ReadLine());
+
+            double[] notes = new double[nb_notes];
+
+            for(int i = 0; i < notes.Length; i++) {
+                Console.WriteLine("\nEntrez la note "+ (i+1)+":");
+                note = Convert.ToDouble(Console.ReadLine());
+                notes[i] = note;
+                moyenne += note;
+            }
+
+            Console.WriteLine("\nLa moyenne est de "+moyenne/notes.Length);
+
         }
     }
 }
