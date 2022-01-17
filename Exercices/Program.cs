@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Exercices
 {
@@ -9,7 +11,8 @@ namespace Exercices
             //AlgoExemple();
             //Moyenne();
             //Moyenne2();
-            MoyenneTab();
+            //MoyenneTab();
+            Ex();
             Console.ReadKey(true);
         }
 
@@ -73,6 +76,18 @@ namespace Exercices
 
             Console.WriteLine("\nLa moyenne est de "+moyenne/notes.Length);
 
+        }
+
+        static void Ex()
+        {
+            int number;
+
+            Console.WriteLine("Entrez un nombre:");
+            number = Int32.Parse(Console.ReadLine());
+
+            for(int i = 1; i <= 10; i++) {
+                Console.WriteLine(number+i);
+            }
         }
     }
 }
