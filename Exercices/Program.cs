@@ -11,8 +11,8 @@ namespace Exercices
             //AlgoExemple();
             //Moyenne();
             //Moyenne2();
-            //MoyenneTab();
-            Ex();
+            MoyenneTab();
+            //Ex();
             Console.ReadKey(true);
         }
 

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jordan.carrot/Documents/GitHub/Test/Exercices/Exercices.csproj",
+      "projectUniqueName": "/Users/jordan.carrot/Documents/GitHub/Algo/Exercices/Exercices.csproj",
       "projectName": "Exercices",
-      "projectPath": "/Users/jordan.carrot/Documents/GitHub/Test/Exercices/Exercices.csproj",
+      "projectPath": "/Users/jordan.carrot/Documents/GitHub/Algo/Exercices/Exercices.csproj",
       "packagesPath": "/Users/jordan.carrot/.nuget/packages/",
-      "outputPath": "/Users/jordan.carrot/Documents/GitHub/Test/Exercices/obj/",
+      "outputPath": "/Users/jordan.carrot/Documents/GitHub/Algo/Exercices/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jordan.carrot/.nuget/NuGet/NuGet.Config"
