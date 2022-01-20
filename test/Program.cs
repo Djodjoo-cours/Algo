@@ -14,7 +14,7 @@ namespace test
 
             Console.WriteLine("\n");
 
-            //double l_result = Algo1(2,3);
+            //double l_result = Algo1(a,b);
             double l_cubeA = Cube(l_a);
             double l_cubeB = Cube(l_b);
             Console.WriteLine("Le cube de A = "+l_cubeA);
@@ -25,7 +25,6 @@ namespace test
             double result = a + b;
 
             return result/2;
-            //normalement il faut demander les valeurs
         }
 
         static double Cube(double a) {
