@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jordan.carrot/Documents/GitHub/Algo/test/test.csproj",
-      "projectName": "test",
-      "projectPath": "/Users/jordan.carrot/Documents/GitHub/Algo/test/test.csproj",
+      "projectUniqueName": "/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/Algo du DS.csproj",
+      "projectName": "Algo du DS",
+      "projectPath": "/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/Algo du DS.csproj",
       "packagesPath": "/Users/jordan.carrot/.nuget/packages/",
-      "outputPath": "/Users/jordan.carrot/Documents/GitHub/Algo/test/obj/",
+      "outputPath": "/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jordan.carrot/.nuget/NuGet/NuGet.Config"

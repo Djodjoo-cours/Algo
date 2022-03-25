@@ -1,0 +1,15 @@
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/bin/Debug/net5.0/Algo du DS.deps.json
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/bin/Debug/net5.0/Algo du DS.runtimeconfig.json
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/bin/Debug/net5.0/Algo du DS.runtimeconfig.dev.json
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/bin/Debug/net5.0/Algo du DS.dll
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/bin/Debug/net5.0/ref/Algo du DS.dll
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/bin/Debug/net5.0/Algo du DS.pdb
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/obj/Debug/net5.0/Algo du DS.csproj.AssemblyReference.cache
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/obj/Debug/net5.0/Algo du DS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/obj/Debug/net5.0/Algo du DS.AssemblyInfoInputs.cache
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/obj/Debug/net5.0/Algo du DS.AssemblyInfo.cs
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/obj/Debug/net5.0/Algo du DS.csproj.CoreCompileInputs.cache
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/obj/Debug/net5.0/Algo du DS.dll
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/obj/Debug/net5.0/ref/Algo du DS.dll
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/obj/Debug/net5.0/Algo du DS.pdb
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/obj/Debug/net5.0/Algo du DS.genruntimeconfig.cache
