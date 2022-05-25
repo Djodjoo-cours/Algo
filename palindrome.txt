@@ -1,0 +1,8 @@
+Algo: Palindrome
+
+C'est un mot ou chiffre qui peut se lire de gauche à droite et inversement.
+Ex: river, non, kayak
+
+-Passer mot en tableau
+-2ème tableau avec le mot inversé
+-Renvoyer binaire (test si tableaux égaux)

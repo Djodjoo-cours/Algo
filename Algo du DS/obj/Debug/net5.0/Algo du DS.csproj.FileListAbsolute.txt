@@ -13,3 +13,4 @@
 /Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/obj/Debug/net5.0/ref/Algo du DS.dll
 /Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/obj/Debug/net5.0/Algo du DS.pdb
 /Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/obj/Debug/net5.0/Algo du DS.genruntimeconfig.cache
+/Users/jordan.carrot/Documents/GitHub/Algo/Algo du DS/bin/Debug/net5.0/Algo du DS

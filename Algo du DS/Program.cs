@@ -84,12 +84,13 @@ namespace Algo_du_DS
             Console.WriteLine(pourcent+"%");
         }
 
-        static void afficherMatrice(double[,] p_tab) {
-            for (int i = 0; i < p_tab.Length/2; i++) {
-                int passage = 1;
-                double val1 = 0, val2 = 0;
-                for (int j = 0; j < p_tab.Length/2; j++) {
-                    if(passage == 2) {
+        static async void afficherMatrice(double[,] p_tab, int p_nbPassage) {
+            string res = "| ";
+            for (int i = 0; i < p_tab.Length/p_nbPassage; i++) {
+                //int passage = 1;
+                /*double val1 = 0, val2 = 0;
+                for (int j = 0; j < p_tab.Length/p_nbPassage; j++) {
+                    if(passage == p_nbPassage) {
                         val2 = p_tab[i,j];
                         passage = 0;
                     } else {
@@ -97,14 +98,23 @@ namespace Algo_du_DS
                         val1 = p_tab[i,j];
                     } 
                 }
-                Console.WriteLine("| "+val1+" - "+val2+" |");
+                Console.WriteLine("| "+val1+" - "+val2+" |");*/
+                for (int j = 0; j < p_tab.Length/p_nbPassage; j++) {
+                    if (j == p_nbPassage -1) {
+                        res += p_tab[i,j]+" |\n| ";
+                    } else {
+                        res += p_tab[i,j]+" ";
+                    }
+                }
+
             }
+            Console.WriteLine(res);
         }
 
-        static void moyenneMatrice(double[,] p_tab) {
+        static void moyenneMatrice(double[,] p_tab, int p_nbPassage) {
             double cumul = 0, moyenne = 0;
-            for(int i = 0; i < p_tab.Length/2; i++) {
-                for(int j =0; j < p_tab.Length/2; j++) {
+            for(int i = 0; i < p_tab.Length/p_nbPassage; i++) {
+                for(int j =0; j < p_tab.Length/p_nbPassage; j++) {
                     cumul += p_tab[i,j];
                 }
             }
@@ -112,18 +122,18 @@ namespace Algo_du_DS
             Console.WriteLine("La moyenne est de "+moyenne);
         }
         
-        static void pourcentageMatrice(double[,] p_tab) {
+        static void pourcentageMatrice(double[,] p_tab, int p_nbPassage) {
             double cumul = 0, moyenne = 0;
-            for(int i = 0; i < p_tab.Length/2; i++) {
-                for(int j =0; j < p_tab.Length/2; j++) {
+            for(int i = 0; i < p_tab.Length/p_nbPassage; i++) {
+                for(int j =0; j < p_tab.Length/p_nbPassage; j++) {
                     cumul += p_tab[i,j];
                 }
             }
             moyenne = cumul/p_tab.Length;
 
             double percent = 0;
-            for(int i = 0; i < p_tab.Length/2; i++) {
-                for(int j =0; j < p_tab.Length/2; j++) {
+            for(int i = 0; i < p_tab.Length/p_nbPassage; i++) {
+                for(int j =0; j < p_tab.Length/p_nbPassage; j++) {
                     if(p_tab[i,j] > moyenne) {
                         percent ++;
                     }
@@ -146,9 +156,9 @@ namespace Algo_du_DS
             }
 
             Console.WriteLine("\n");
-            afficherMatrice(l_tab);
-            moyenneMatrice(l_tab);
-            pourcentageMatrice(l_tab);
+            afficherMatrice(l_tab, n);
+            moyenneMatrice(l_tab, n);
+            pourcentageMatrice(l_tab, n);
         }
     }
 }

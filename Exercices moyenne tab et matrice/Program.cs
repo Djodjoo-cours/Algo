@@ -14,8 +14,9 @@ namespace Exercices
             // MoyenneTab();
             //Ex();
             //int[ , ] matrice = MoyenneMatriceRemplir(3);
-            int[ , ] l_matrice = {{2,3}, {5,8}};
-            AfficherMatrice(l_matrice);
+            //int[ , ] l_matrice = {{2,3}, {5,8}};
+            //AfficherMatrice(l_matrice);
+            Console.WriteLine(estPalindrome("kayak"));
             Console.ReadKey(true);
         }
 
@@ -95,15 +96,33 @@ namespace Exercices
             return matrice;
         }
 
-        static void AfficherMatrice(int[ , ] matrice) {
+        /*static void AfficherMatrice(int[ , ] matrice) {
             Console.WriteLine(matrice.Length);
             for(int i = 0; i < matrice.Length; i++) {
                 Console.WriteLine(matrice[i]);
                 /*for(int j = 0; j < matrice.Length; j++) {
                     Console.WriteLine(matrice[i,j]+" ");
-                }*/
+                }
                 //Console.WriteLine("\n");
             }
+        }*/
+
+        static Boolean estPalindrome(string pMot) {
+            char[] tabMot = pMot.ToCharArray();
+            char[] tabMotInverse = new char[pMot.Length];
+            int index = 0;
+
+            for(int i = pMot.Length-1; i >= 0; i--) {
+                tabMotInverse[index] = tabMot[i];
+                index++;
+            }
+            
+            for(int j = 0; j < tabMot.Length; j++) {
+                if(tabMot[j] != tabMotInverse[j]) {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

@@ -58,3 +58,4 @@
 /Users/jordan.carrot/Documents/GitHub/Algo/Exercices moyenne tab et matrice/obj/Debug/net5.0/ref/Exercices.dll
 /Users/jordan.carrot/Documents/GitHub/Algo/Exercices moyenne tab et matrice/obj/Debug/net5.0/Exercices.pdb
 /Users/jordan.carrot/Documents/GitHub/Algo/Exercices moyenne tab et matrice/obj/Debug/net5.0/Exercices.genruntimeconfig.cache
+/Users/jordan.carrot/Documents/GitHub/Algo/Exercices moyenne tab et matrice/bin/Debug/net5.0/Exercices
